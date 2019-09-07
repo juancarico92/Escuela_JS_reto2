@@ -1,0 +1,53 @@
+body {
+    /* background: #2980b9;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom, #2c3e50, #2980b9);  Chrome 10-25, Safari 5.1-6 */
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    color: white;
+}
+
+/* Header */
+.header {
+    height: 80px;
+    width: 100%;
+    background: rgb(114, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__img {
+    height: 60px;
+    margin: 10px 0 0 10px;
+}
+
+/* Error */
+.error {
+    background: linear-gradient(to bottom, rgb(114, 20, 20) /*#2c3e50*/, rgb(49, 2, 58)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: rgb(49, 2, 58); 
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
