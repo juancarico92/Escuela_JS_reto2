@@ -28,7 +28,13 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 0px 30px;
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 180px);
+}
+.error__title {
+    font-size: 50px;
+}
+.error__subtitle {
+    font-size: 20px;
 }
 
 
